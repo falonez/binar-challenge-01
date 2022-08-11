@@ -175,6 +175,12 @@
     text-align: center;
 }
 
+.item .star{
+    width: 16px !important;
+    height: 16px;
+    margin-bottom: 8px;
+}
+
 .item{
     padding: 69px 46px 69px 46px;
     height: 270px;
@@ -271,6 +277,10 @@
     padding: 100px 136px 0 136px;
 }
 
+.faq-section h1{
+    font-weight: 700 !important;
+}
+
 .text-content{
     width: 50%;
 }
@@ -308,17 +318,15 @@ footer{
 }
 
 .menu a:hover{
-    color: white;
+    color: #cccccc;
 }
 
 .menu a{
     padding-top: 0;
-}
-
-.menu a{
+    font-weight: 400;
     margin-top: 0;
-   font-size: 14px;
-   color: black;
+    font-size: 14px;
+    color: black;
 }
 
 .logo{
