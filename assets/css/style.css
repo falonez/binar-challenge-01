@@ -15,6 +15,7 @@
 
 .navbar{
     padding: 0;
+    /* margin: 24px 16px 0px 0px; */
     margin: 25px 136px 0px 136px;
     font-size: 14px;
 }
@@ -41,27 +42,20 @@
 /* Hero section */
 
 .hero-section{
-    padding-top: 97px;
-    padding-left: 136px;
-    /* padding:97px 0px 0px 136px; */
+    padding: 90px 16px 0px 16px;
     margin-top: -64px;
     width: auto;
-    height: 500px;
+    height: 657px;
     background-color: #F1F3FF;
-}
-
-.hero-text p{
-    max-width: 500px;
 }
 
 
 .item-hero{
-    width: 50%;
     padding-right: 0px;
 }
 .item-hero h1{
     font-weight: 700;
-    font-size: 36;
+    font-size: 36px;
     line-height: 54px;
 }
 
@@ -333,4 +327,23 @@ footer{
     background-color: #0D28A6;
     width: 100px;
     height: 34px;
+}
+
+
+/* Destop Version */
+
+@media screen and (min-width:994px) {
+    .item-hero{
+        width: 50%;
+    }
+
+    .hero-section{
+        padding-top: 97px;
+        padding-left: 136px;
+        height: 500px;
+    }
+
+    .hero-text p{
+        max-width: 500px;
+    }
 }
